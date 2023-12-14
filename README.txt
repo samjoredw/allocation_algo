@@ -28,7 +28,7 @@ The demo provides a step-by-step walkthrough of the SAOS algorithm, allowing use
 INSTALL/EXECUTE:
 -------------------------------------------------------------------------------------
 Open up a terminal window and simply do the following.
-Perform the following commands in a bash shell session (copy and paste without "$"):
+Perform the following commands in a bash/zsh shell session (copy and paste without "$"):
 
     $ git clone https://github.com/samjoredw/allocation_algo.git
     $ cd allocation_algo
