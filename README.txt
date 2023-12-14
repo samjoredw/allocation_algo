@@ -20,3 +20,14 @@ Follow the prompts to define grid space, set shape dimensions, and allocate unit
 DEMO:
 The demo provides a step-by-step walkthrough of the SAOS algorithm, allowing users to visualize the grid allocation process and explore various functionalities. The output includes information about grid dimensions, initial grid views, shape-defined grid views, and the final grid layers after allocation.
 
+INSTALL/EXECUTE:
+Open up a terminal window and simply do the following.
+Perform the following commands in a bash shell session (copy and paste without "$"):
+
+    $ git clone https://github.com/samjoredw/allocation_algo.git
+    $ cd allocation_algo
+    $ ls
+    [confirm files in output here]
+    $ javac src/saos/*.java
+    $ java -cp src saos.Saos_Demo
+    [program will run here]

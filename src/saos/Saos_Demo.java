@@ -28,7 +28,7 @@ public class Saos_Demo {
         boolean restart = true;
         Scanner scan = new Scanner(System.in);
         System.out.println();
-        System.out.println("SAOS Algorithm Project");
+        System.out.println("\n\nSAOS Algorithm Project");
         System.out.println("-----------------------");
 
         System.out.println("""
@@ -63,7 +63,7 @@ public class Saos_Demo {
         while (restart) {
 
             System.out.println();
-            System.out.println("Spatial Arrangement Optimization System");
+            System.out.println("\n\nSpatial Arrangement Optimization System");
             System.out.println("----------------------------------------");
 
             System.out.println("This program dynamically allocates a set of shapes onto a three" +
@@ -88,7 +88,7 @@ public class Saos_Demo {
             Thread.sleep(1);
 
             System.out.println();
-            System.out.println("Defining the Grid");
+            System.out.println("\nDefining the Grid");
             System.out.println("------------------");
 
             System.out.println("""
@@ -125,7 +125,7 @@ public class Saos_Demo {
             grid.printGrid(0);
             System.out.println();
 
-            System.out.println("Defining the Unit Size");
+            System.out.println("\nDefining the Unit Size");
             System.out.println("------------------");
 
             System.out.println("""
@@ -165,7 +165,7 @@ public class Saos_Demo {
             grid.printGrid(0);
             System.out.println();
 
-            System.out.println("Defining the Number of Units");
+            System.out.println("\nDefining the Number of Units");
             System.out.println("-----------------------------");
 
             System.out.println("""
@@ -211,7 +211,7 @@ public class Saos_Demo {
             scan.nextLine();
 
 
-            System.out.println("Logistics");
+            System.out.println("\nLogistics");
             System.out.println("----------");
             System.out.println("""
                     If we were to stack each layer on top of one another, we might see that each
@@ -225,6 +225,7 @@ public class Saos_Demo {
             Thread.sleep(1);
 
             String prompt = """
+                    \n
                     Menu
                     -------
                     Determine max number of shapes [1]\s
@@ -296,7 +297,7 @@ public class Saos_Demo {
                         break;
 
                     case 5:
-                        System.out.println("Conclusion");
+                        System.out.println("\n\nConclusion");
                         System.out.println("-------------");
                         System.out.println("""
                               Thank you for exploring my SAOS Algorithm Project!\s
