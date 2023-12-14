@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b9f8a3-15ee-418c-b55f-20fc916355df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Spatial Arrangement Optimization System.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saos/CellNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saos/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saos/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saos/Saos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saos/Saos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saos/Saos_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saos/Saos_Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saos/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saos/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
