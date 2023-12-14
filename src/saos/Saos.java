@@ -83,8 +83,6 @@ public class Saos {
                             // Check if it is the bottom layer
                             if (curZ == 0) {
                                 array[curZ][curY][curX] = false; // Set inner cells to false
-                            } else {
-                                array[curZ][curY][curX] = false;
                             }
                         }
                     }
