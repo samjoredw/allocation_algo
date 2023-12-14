@@ -93,7 +93,7 @@ public class Saos {
         int maxShapesY = gridRows / shapeWidth;
         int maxShapesZ = gridLayers / shapeHeight;
 
-        return Math.min(Math.min(maxShapesX, maxShapesY), maxShapesZ);
+        return maxShapesX * maxShapesY * maxShapesZ;
     }
 
     public int getUnitsLeft() {
