@@ -68,7 +68,7 @@ public class Saos {
         int curY = 0;
         int curZ = 0;
 
-        // Complexity: O(unitesLeft * shapeHeight * shapeWidth * shapeLength)
+        // Complexity: O(n^4*m)
         while (unitsLeft > 0) {
 
             for (int i = 0; i < shapeHeight; i++,curZ++) {
